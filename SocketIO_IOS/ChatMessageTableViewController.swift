@@ -11,6 +11,17 @@ import SocketIOClientSwift
 
 class ChatMessageTableViewController: UITableViewController {
 
+    var username:String = ""
+    @IBAction func btnSend(sender: UIButton) {
+        if text.text != nil {
+            let chat1=ChatMessage(username: username, message: text.text!);
+            self.chats += [chat1];
+            self.tableView.reloadData();
+            socket.emit("chat", "iOS",text.text!)
+            text.text = ""
+        }
+    }
+    @IBOutlet weak var text: UITextField!
     let socket = SocketIOClient(socketURL: NSURL(string: "http://firsttestnode.herokuapp.com")!, options: [.Log(true), .ForcePolling(true)])
     
     
@@ -26,7 +37,7 @@ class ChatMessageTableViewController: UITableViewController {
         socket.on("message"){ data,ack in
             print("Message")
             print(data[0]);
-            let chat1=ChatMessage(username: "akki:", message: data[0] as! String);
+            let chat1=ChatMessage(username: data[0] as! String, message: data[1] as! String);
             self.chats += [chat1];
             self.tableView.reloadData();
             

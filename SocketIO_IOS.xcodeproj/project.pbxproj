@@ -16,7 +16,6 @@
 		A92A981D1D00BC0900EC6B11 /* ChatMessageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92A981C1D00BC0900EC6B11 /* ChatMessageTableViewCell.swift */; };
 		A92A981F1D00C3C400EC6B11 /* ChatMessageTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92A981E1D00C3C400EC6B11 /* ChatMessageTableViewController.swift */; };
 		A92A98211D00C5F100EC6B11 /* ChatMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92A98201D00C5F100EC6B11 /* ChatMessage.swift */; };
-		A92A98251D00E8A900EC6B11 /* EnterText.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92A98241D00E8A900EC6B11 /* EnterText.swift */; };
 		E3167E7A9C544845C89063B6 /* Pods_SocketIO_IOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B5CBD56BD5C8F9D73ED9717 /* Pods_SocketIO_IOS.framework */; };
 /* End PBXBuildFile section */
 
@@ -47,7 +46,6 @@
 		A92A981C1D00BC0900EC6B11 /* ChatMessageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatMessageTableViewCell.swift; sourceTree = "<group>"; };
 		A92A981E1D00C3C400EC6B11 /* ChatMessageTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatMessageTableViewController.swift; sourceTree = "<group>"; };
 		A92A98201D00C5F100EC6B11 /* ChatMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatMessage.swift; sourceTree = "<group>"; };
-		A92A98241D00E8A900EC6B11 /* EnterText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnterText.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,7 +110,6 @@
 				A92A97FC1D00B89700EC6B11 /* AppDelegate.swift */,
 				A92A97FE1D00B89700EC6B11 /* ViewController.swift */,
 				A92A98001D00B89700EC6B11 /* Main.storyboard */,
-				A92A98241D00E8A900EC6B11 /* EnterText.swift */,
 				A92A981E1D00C3C400EC6B11 /* ChatMessageTableViewController.swift */,
 				A92A98201D00C5F100EC6B11 /* ChatMessage.swift */,
 				A92A981C1D00BC0900EC6B11 /* ChatMessageTableViewCell.swift */,
@@ -285,7 +282,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A92A97FF1D00B89700EC6B11 /* ViewController.swift in Sources */,
-				A92A98251D00E8A900EC6B11 /* EnterText.swift in Sources */,
 				A92A97FD1D00B89700EC6B11 /* AppDelegate.swift in Sources */,
 				A92A981D1D00BC0900EC6B11 /* ChatMessageTableViewCell.swift in Sources */,
 				A92A98211D00C5F100EC6B11 /* ChatMessage.swift in Sources */,
